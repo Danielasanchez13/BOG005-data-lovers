@@ -1,4 +1,4 @@
-html{
+html {
 	background-image: url(https://images5.alphacoders.com/339/thumb-1920-339227.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -7,16 +7,13 @@ html{
 	background-size: cover;
 }
 
-
-
-section#sectionHomePage{
+section#sectionHomePage {
 	padding: 30px;
-	
 }
 
 #logoHomePage {
 	width: 500px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 #mesajeHome {
@@ -28,8 +25,8 @@ section#sectionHomePage{
 }
 
 #welcome {
-	margin-top: 300px;
-	margin-left: 1250px;
+	margin-top: 250px;
+	margin-left: 1000px;
 	width: 130px;
 	height: 50px;
 	background-image: url(https://image.shutterstock.com/image-illustration/brushed-gold-metal-background-texture-260nw-779522356.jpg);
@@ -127,7 +124,6 @@ section#filterButtons {
 	padding: 30px;
 }
 
-
 .containerCard {
 	align-items: center;
 	display: grid;
@@ -137,12 +133,7 @@ section#filterButtons {
 	perspective: 1000px;
 	grid-template-columns: repeat(4, 1fr);
 }
-@media screen and (min-width: 768px )and (max-width:1024px){
-	.containerCard{
-		display:block;
-	}
-	
-}
+
 .containerFather:hover .card {
 	transform: rotateY(180deg);
 }
@@ -178,16 +169,19 @@ section#filterButtons {
 	background-image: url(https://cdn11.bigcommerce.com/s-b72t4x/images/stencil/1280x1280/products/74433/81261/Harry_Potter_Poster_-_Hogwarts_Crest__81490.1489004781.jpg?c=2);
 }
 
-.Gryffindor{
+.Gryffindor {
 	background-image: url(https://m.media-amazon.com/images/I/81BpIbsbaWL._AC_SX466_.jpg);
 }
-.Hufflepuff{
+
+.Hufflepuff {
 	background-image: url(https://i.pinimg.com/originals/0c/fa/05/0cfa058c7e9c4d9ccd9ce053e5ff8cb3.png);
 }
-.Ravenclaw{
+
+.Ravenclaw {
 	background-image: url(https://static.posters.cz/image/750/carteles-de-metal/harry-potter-ravenclaw-i67994.jpg);
 }
-.Slytherin{
+
+.Slytherin {
 	background-image: url(https://m.media-amazon.com/images/I/51T3hA0FXrL._AC_.jpg);
 
 }
